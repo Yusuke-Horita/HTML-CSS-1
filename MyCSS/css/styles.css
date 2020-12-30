@@ -1,7 +1,17 @@
-main > h2:first-of-type {
-	background: pink;
+section {
+	display: flex;
+	margin-bottom: 60px;
+	justify-content: space-between;
 }
 
-main > h2:last-of-type {
-	background: pink;
+section:nth-child(even) {
+	flex-direction: row-reverse;
+}
+
+.pic {
+	width: 180px;
+}
+
+.desc {
+	width: calc(100% - 180px - 32px);
 }
