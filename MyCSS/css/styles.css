@@ -1,7 +1,7 @@
-img {
-	float: right;
+main > h2:first-of-type {
+	background: pink;
 }
 
-h2 {
-	clear: right;
+main > h2:last-of-type {
+	background: pink;
 }
